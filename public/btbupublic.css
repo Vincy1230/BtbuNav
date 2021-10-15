@@ -1,0 +1,145 @@
+* {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+	float: left;
+}
+
+.right {
+	text-align: right;
+	float: right;
+}
+
+body {
+	margin: 0;
+	background-color: #FDFDFD;
+}
+
+header {
+	background-color: #003670;
+	height: 4.5em;
+	padding: 0em 5em;
+	margin: 0em;
+}
+
+nav {
+	position: sticky;
+	top: 0.5em;
+	background-color: lightgray;
+	height: 3em;
+	padding: 0em 6%;
+}
+
+#navh {
+	position: sticky;
+	top: 0em;
+	height: 0.5em;
+	background-color: #003670;
+}
+
+article {
+	text-align: left;
+	padding: 0em 6%;
+}
+
+article * {
+	text-align: left;
+}
+
+footer {
+	background-color: lightgray;
+	margin-top: 1em;
+	text-align: left;
+	padding: 1em 5em;
+}
+
+footer * {
+	color: black;
+	text-align: left;
+	text-decoration: none;
+}
+
+nav li {
+	display: inline-block;
+	float: left;
+	background-color: lightgray;
+	height: 1em;
+	padding: 1em;
+	width: 5em;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+#h1 {
+	margin-top: 1em;
+	height: 3em;
+	border-radius: 0.5em;
+}
+
+#h5 {
+	margin: 1em;
+	height: 3em;
+}
+
+#h2 {
+	color: white;
+	font-size: 2em;
+	padding: 0.8em 0em 0em;
+}
+
+.button2 {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: gray;
+	transition: 0.2s;
+	border-radius: 0.5em;
+	border: 2px solid gray;
+}
+
+.button2:hover {
+	color: #003670;
+	transition: 0.2s;
+	border: 2px solid #003670;
+}
+
+#about {
+	float: right;
+}
+
+.else:hover {
+	background-color: #E5E5E5;
+}
+
+.this {
+	background-color: #FDFDFD;
+}
+
+#ing {
+	font-size: 2em;
+}
+
+.beian {
+	display: inline-block;
+}
+
+.beian a {
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.beian img {
+	float: left;
+}
+
+.beian span {
+	float: left;
+	margin-left: 0.3em;
+	color: #939393;
+}
