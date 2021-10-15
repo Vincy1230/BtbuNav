@@ -1,0 +1,25 @@
+article h1 {
+	margin: 1em 0em;
+	color: #003670;
+}
+
+#a1 {
+	font-size: 2em;
+}
+
+#a2 {
+	font-weight: 400;
+	color: gray;
+	font-size: 1em;
+}
+
+.about1 {
+	color: #003670;
+	font-weight: 700;
+}
+
+.about2 {
+	color: gray;
+	font-size: 0.75em;
+	line-height: 0.75em;
+}
